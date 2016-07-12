@@ -52,7 +52,7 @@ def main():
       state    = dict(default="present", options=['present', 'absent']),
       es_home  = dict(default="/usr/share/elasticsearch"),
       conf_dir = dict(default="/etc/elasticsearch"),
-      instance_default_file = dict(default="/etc/default/elasticsearch"),
+      instance_default_file = dict(default="/etc/default/elasticsearch")
     ),
     supports_check_mode = True,
   )
